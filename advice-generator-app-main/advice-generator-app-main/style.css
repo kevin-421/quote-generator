@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: manrope;
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+}
+html{
+    background-color: #202632;
+}
+body{
+    width: 1440px;
+}
+.advice-box {
+    top: 230px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #313A49;
+    min-height: 300px;
+    color: #CEE3EA;
+    margin: auto;
+    width: 38%;
+    word-wrap: break-word;
+    font-family: 'manrope',sans-serif;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+
+.advice-box h3{
+    color: #50F1A3;
+    font-family: 'manrope',sans-serif; 
+    font-size: 15px;
+}
+.divider{
+    padding-top: 50px;
+}
+.dice{
+    padding-top: 283px;
+    position: absolute;
+    z-index: 1;
+    height: 10%;
+}
+.circle{
+    filter: invert(25%) sepia(57%) saturate(450%) hue-rotate(90deg) brightness(96%) contrast(96%);
+    position: absolute;
+    padding-top: 265px;
+    height: 22%
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    body{
+        width: 375px;
+    }
+    .advice-box{
+        width: auto;
+    }
+    .divider{
+        width: fit-content;
+    }
+}
