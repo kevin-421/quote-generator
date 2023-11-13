@@ -47,7 +47,7 @@ body{
     filter: invert(25%) sepia(57%) saturate(450%) hue-rotate(90deg) brightness(96%) contrast(96%);
     position: absolute;
     padding-top: 265px;
-    height: 22%
+    height: 22%;
 }
 
 /* media query */
