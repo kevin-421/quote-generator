@@ -7,7 +7,7 @@ html{
     background-color: #202632;
 }
 body{
-    width: 1440px;
+    max-width: 1440px;
 }
 .advice-box {
     top: 230px;
